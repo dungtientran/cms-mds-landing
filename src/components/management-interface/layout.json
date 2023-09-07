@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_management_interface_layouts",
+  "info": {
+    "displayName": "layout"
+  },
+  "options": {},
+  "attributes": {
+    "theme_name": {
+      "type": "string"
+    },
+    "url_link": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "short_description": {
+      "type": "string"
+    },
+    "create_time": {
+      "type": "datetime"
+    },
+    "update_time": {
+      "type": "datetime"
+    }
+  }
+}

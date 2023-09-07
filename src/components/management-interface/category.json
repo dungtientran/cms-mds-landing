@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_management_interface_categories",
+  "info": {
+    "displayName": "category",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "category_name": {
+      "type": "string"
+    },
+    "create_time": {
+      "type": "datetime"
+    },
+    "update_time": {
+      "type": "datetime"
+    }
+  }
+}
