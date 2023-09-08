@@ -1,4 +1,26 @@
+// @ts-nocheck
+import logo from './extensions/logo.jpg';
+
 const config = {
+  auth: {
+    logo: logo,
+  },
+  head: {
+    favicon: logo,
+  },
+  menu: {
+    logo: logo,
+  },
+  translations: {
+
+    en: {
+      "Auth.form.welcome.title": "Metadata Solutions Admin",
+      "Auth.form.welcome.subtitle": "Log in to your account",
+
+      "app.components.LeftMenu.navbrand.title": "Metadata Dashboard",
+      "app.components.LeftMenu.navbrand.workplace": "Workplace",
+    }
+  },
   locales: [
     // 'ar',
     // 'fr',
@@ -26,6 +48,7 @@ const config = {
     // 'vi',
     // 'zh-Hans',
     // 'zh',
+
   ],
 };
 
