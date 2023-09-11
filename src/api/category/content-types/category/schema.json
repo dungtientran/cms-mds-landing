@@ -10,16 +10,38 @@
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "category_name": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "layouts": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::layout.layout",
       "mappedBy": "categories"
+    },
+    "name": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "Bất động sản,",
+        "Mỹ phẩm,",
+        "Thời trang"
+      ]
     }
   }
 }

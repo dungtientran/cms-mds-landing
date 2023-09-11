@@ -1,16 +1,20 @@
 // @ts-nocheck
 import logo from './extensions/logo.jpg';
+import favicon from './extensions/favicon.jpg';
 
 const config = {
   auth: {
     logo: logo,
   },
   head: {
-    favicon: logo,
+    favicon: favicon,
   },
   menu: {
     logo: logo,
   },
+  locales: [
+    'vi',
+  ],
   translations: {
 
     en: {
@@ -19,37 +23,17 @@ const config = {
 
       "app.components.LeftMenu.navbrand.title": "Metadata Dashboard",
       "app.components.LeftMenu.navbrand.workplace": "Workplace",
-    }
-  },
-  locales: [
-    // 'ar',
-    // 'fr',
-    // 'cs',
-    // 'de',
-    // 'dk',
-    // 'es',
-    // 'he',
-    // 'id',
-    // 'it',
-    // 'ja',
-    // 'ko',
-    // 'ms',
-    // 'nl',
-    // 'no',
-    // 'pl',
-    // 'pt-BR',
-    // 'pt',
-    // 'ru',
-    // 'sk',
-    // 'sv',
-    // 'th',
-    // 'tr',
-    // 'uk',
-    // 'vi',
-    // 'zh-Hans',
-    // 'zh',
+    },
+    vi: {
+      "Auth.form.welcome.title": "Metadata Solutions Admin",
+      "Auth.form.welcome.subtitle": "Đăng nhập với tài khoản",
 
-  ],
+      "app.components.LeftMenu.navbrand.title": "Metadata Dashboard",
+      "app.components.LeftMenu.navbrand.workplace": "Workplace",
+    },
+
+  },
+
 };
 
 const bootstrap = (app) => {
