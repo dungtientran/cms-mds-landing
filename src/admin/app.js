@@ -14,7 +14,6 @@ const config = {
   },
   locales: [
     'vi',
-    'fr'
   ],
   translations: {
 
@@ -22,7 +21,7 @@ const config = {
 
       category: 'Category management',
       layout: 'Theme management',
-      User: 'Customer management',
+      description: 'Customer management',
       "Auth.form.welcome.title": "Metadata Solutions Admin",
       "Auth.form.welcome.subtitle": "Log in to your account",
 
@@ -39,7 +38,7 @@ const config = {
     vi: {
       category: 'Quản lý danh mục',
       layout: 'Quản lý giao diện',
-      User: 'Quản lý khách hàng',
+      customer: 'Quản lý khách hàng',
       CATEGORY_NAME: 'Tên danh mục',
 
       "Content Manager": "Content Manager sssssssssssssssssssssssssssssssssssssssssssss",
