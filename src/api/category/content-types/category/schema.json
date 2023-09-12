@@ -29,19 +29,6 @@
       "relation": "manyToMany",
       "target": "api::layout.layout",
       "mappedBy": "categories"
-    },
-    "name": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "enumeration",
-      "enum": [
-        "Bất động sản,",
-        "Mỹ phẩm,",
-        "Thời trang"
-      ]
     }
   }
 }
