@@ -21,7 +21,7 @@ const config = {
 
       category: 'Category management',
       layout: 'Theme management',
-      description: 'Customer management',
+      customer: 'Customer management',
       "Auth.form.welcome.title": "Metadata Solutions Admin",
       "Auth.form.welcome.subtitle": "Log in to your account",
 
@@ -32,7 +32,7 @@ const config = {
       "content-manager.containers.ListPage.table-headers.category_name": 'Categories',
 
       'content-manager.containers.ListPage.table-headers.theme_name': 'Name theme',
-
+      "Content Manager": "LA LA LA",
     },
 
     vi: {
